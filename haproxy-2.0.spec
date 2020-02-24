@@ -14,8 +14,8 @@ Summary:		TCP/HTTP(S) proxy and load balancer for high availability environments
 Group:			System Environment/Daemons
 License:		GPL
 
-URL:			http://www.haproxy.org/
-Source0:		http://www.haproxy.org/download/2.0/src/%{name}-%{version}.tar.gz
+URL:			https://www.haproxy.org/
+Source0:		https://www.haproxy.org/download/2.0/src/%{name}-%{version}.tar.gz
 Source1:		%{name}.service
 Source2:		%{name}.logrotate
 Source3:		%{name}.sysconfig
