@@ -7,7 +7,7 @@
 %global _hardened_build 1
 
 Name:			haproxy
-Version:		2.0.12
+Version:		2.0.13
 Release:		1%{?dist}
 Summary:		TCP/HTTP(S) proxy and load balancer for high availability environments
 
@@ -135,6 +135,8 @@ fi
 %config(noreplace) %{_sysconfdir}/%{name}/%{name}.cfg
 
 %changelog
+* Thu Mar 05 2020 Piotr Krawiecki <Piotr.Krawiecki@pracuj.pl>
+- HaProxy version 2.0.12
 * Mon Feb 10 2020 Piotr Krawiecki <Piotr.Krawiecki@pracuj.pl>
 - HaProxy version 2.0.12
 * Tue Oct 01 2019 Piotr Krawiecki <Piotr.Krawiecki@pracuj.pl>
